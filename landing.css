@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic%7CNoto+Serif:400,400italic&subset=latin,cyrillic);
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+  background: #F04236;
+  font-family: Gibson;
+  overflow-x: hidden
+}
+
+.wrapper {
+    background: #F04236;
+    font-family: Gibson;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 2.2 !important;
+    font-family: Gibson;
+}
+
+h1 {
+    font-size: 5vw !important;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFE500;
+}
+h2 {
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF; 
+
+}
+h3 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF; 
+}
+h4 {
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+section.main-container {
+    display: flow-root;
+    margin-bottom: -7vw;
+}
+
+h2#sub-title {
+    margin: -5vw 0 5vw 0;
+    line-height: 6vw !important;
+}
+
+p#support {
+    margin: -6vw 0 6vw 0;
+    padding: 0 26vw;
+    text-align: justify;
+}
+
+@media screen and (max-width:650px){
+p#support {
+    margin: -6vw 0 4vw 0;
+    padding: 0 6vw;
+    text-align: justify;
+}
+}
+
+.box {
+    display: flex;
+    margin: 3vw;
+}
+
+p#description {
+    font-family: LeagueGothic-Regular;
+    font-size: larger;
+    padding: 0 5vw;
+}
+
+.Logo img {
+    width: 300px;
+}
+
+img#game-name {
+    height: 175px;
+    padding: -1px 35px;
+}
+
+button.btn {
+    background: #FFE500;
+    color: #070606;
+    font-family: LeagueGothic-Regular;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+#footer-rotate {
+    height: 7vw;
+    background: #070606;
+    margin: 5vw -95vw -22vw -5vw;
+    transform: rotate(-3deg);
+}
+
+.pay-logo {
+    margin: 5vw 0;
+}
+
+div#payments {
+    display: inline-flex;
+}
+
+img#pay {
+    width: 100px;
+}
+
+img#pay-s {
+    width: 140px;
+    height: 30px;
+    margin-top: 18px;
+}
+
+img#pay-v {
+    height: 50px;
+}
+
+
+@media screen and (max-width:900px){
+img#pay {
+    width: 60px;
+}
+
+img#pay-s {
+    width: 80px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+img#pay-v {
+    height: 20px;
+    margin-top: 5px;
+}
+}
+
+footer {
+    background: #070606;
+    display: block;
+    margin: 21vw -5vw -2vw -5vw;
+    padding: 6vw 10vw 5vw 8vw;
+}
+
+footer a {
+    color: #FFE500;
+}
+
+footer a:hover {
+    color: #fed800;
+}
+
+#footer {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.wrapper {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.game {
+	position: relative;
+  display: inline-block;
+  width: 272px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.game:hover {
+  animation-name: game-box-shadow-animation;
+  animation-duration: 250ms;
+  animation-fill-mode: forwards;
+  transform: scale(1.1,1.1);
+}
+
