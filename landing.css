@@ -169,23 +169,4 @@ footer a:hover {
     color: #ffffff;
 }
 
-.wrapper {
-  padding-top: 50px;
-  text-align: center;
-}
-
-.game {
-	position: relative;
-  display: inline-block;
-  width: 272px;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.game:hover {
-  animation-name: game-box-shadow-animation;
-  animation-duration: 250ms;
-  animation-fill-mode: forwards;
-  transform: scale(1.1,1.1);
-}
 
